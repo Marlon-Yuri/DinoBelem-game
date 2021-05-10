@@ -5,19 +5,21 @@
 }
 .game{
     margin: auto;
-    width: 75%;
-    height: 30vw;
+    width: 83%;
+    height: 40vw;
     border:solid 1.5px black;
     background-image: url(assets/pa15.jpg);
     background-size:cover;
+    
+
 
 }
 .personagem{
     position: relative;
-    top: 66.6%;
+    top: 67.4%;
     left: 7%;
-    width:8%;
-    height: 10vw;
+    width:10%;
+    height: 13vw;
     background-image: url(assets/jade.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,12 +43,12 @@
     background-image: url(assets/corona.png);
     position: relative;
     left: 96.7%;
-    top: 53%;
-    width:3.7vw;
-    height: 4.4vw;
+    top: 55.3%;
+    width:4.3vw;
+    height: 4.8vw;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: bloco 1.50s infinite linear;
+    animation: bloco 1.60s infinite linear;
 }
 
 
