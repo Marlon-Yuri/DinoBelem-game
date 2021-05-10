@@ -10,9 +10,18 @@
     border:solid 1.5px black;
     background-image: url(assets/pa15.jpg);
     background-size:cover;
+    transition: margin-left 4s ease-in-out 1s;
+    animation: game 1.60s infinite linear;
     
+}
+@keyframes game{
+    0%{left: 96.7%;}
+    100%{left: -4%;}
 
-
+}
+.game:hover{
+    cursor: pointer;
+    transition: margin-left 4s ease-in-out 1s;
 }
 .personagem{
     position: relative;
@@ -49,6 +58,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     animation: bloco 1.60s infinite linear;
+    border-radius: 50%;
 }
 
 

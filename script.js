@@ -12,12 +12,5 @@ var limite = setInterval(function(){
     var alto =
     parseInt(window.getComputedStyle(personagem).
     getPropertyValue("top"));
-    var blocoesquerda =
-    parseInt(window.getComputedStyle(personagem).
-    getPropertyValue("left"));{
-        loco.style.animation ="none";
-        bloco.style.animation ="display";
-
-    }
-
+   
 },10);
