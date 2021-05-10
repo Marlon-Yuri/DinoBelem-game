@@ -2,8 +2,22 @@ var personagem = document.getElementById("personagem");
 var bloco = document.getElementById("bloco");
 
 function jump(){
-    personagem.classList.add("jump-animate")
+    if(personagem.classList != "animate")
+    personagem.classList.add("animate")
     setTimeout(function(){
-        personagem.classList.remove("jump-animate");
-    }, 500);
+        personagem.classList.remove("animate");
+    }, 400);
 }
+var limite = setInterval(function(){
+    var alto =
+    parseInt(window.getComputedStyle(personagem).
+    getPropertyValue("top"));
+    var blocoesquerda =
+    parseInt(window.getComputedStyle(personagem).
+    getPropertyValue("left"));{
+        loco.style.animation ="none";
+        bloco.style.animation ="display";
+
+    }
+
+},10);
