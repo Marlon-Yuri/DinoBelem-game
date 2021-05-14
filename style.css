@@ -4,37 +4,70 @@
     box-sizing: border-box;
 }
 .game{
+    display: flex;
+    justify-content: center;
+    position: relative;
     margin: auto;
     width: 83%;
     height: 40vw;
     border:solid 1.5px black;
-    background-image: url(assets/pa15.jpg);
-    background-size:cover;
-    transition: margin-left 4s ease-in-out 1s;
-    animation: game 1.60s infinite linear;
+}
+.back{
+    position: absolute;
+    width: 83vw;
+    height: 100%;
     
 }
-@keyframes game{
-    0%{left: 96.7%;}
-    100%{left: -4%;}
-
+.back img{
+    width: 83vw;
+    height: 100%;
+    
 }
+
 .game:hover{
     cursor: pointer;
     transition: margin-left 4s ease-in-out 1s;
 }
+.water{
+    
+    display: flex;
+    justify-content: center;
+    width:87% ;
+    height: 20%;
+    border-radius: 80%;
+    position: absolute;
+    z-index: 10;
+    top: 80%;
+    left: 0;
+}
+.water img{
+    width: 100%;
+    border-radius: 3.5%;
+}
 .personagem{
-    position: relative;
-    top: 67.4%;
-    left: 7%;
+    border-radius: 2%;
+    position: absolute;
+    top: 62%;
+    left: 5%;
     width:10%;
     height: 13vw;
-    background-image: url(assets/jade.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    z-index: 20;
+}
+.personagem img{
+    width: 8vw;
+    border-radius: 5.4%;
+}
+.lost{
+    position: absolute;
+    z-index: 49;
+    top: 70%;
+    left: 67%;
+    width: 9vw;
+    height: 20%
     
-    
-   
+}
+.lost img{
+    width: 6.8vw;
 }
 .animate {
     animation: personagem 0.5s linear;
@@ -49,23 +82,99 @@
 }
 
 .bloco{
-    background-image: url(assets/corona.png);
-    position: relative;
-    left: 96.7%;
-    top: 55.3%;
+   
+    position: absolute;
+    left: 92%;
+    top: 88%;
     width:4.3vw;
     height: 4.8vw;
     background-repeat: no-repeat;
     background-size: cover;
     animation: bloco 1.60s infinite linear;
     border-radius: 50%;
+    z-index: 20;
+}
+.bloco img{
+    width: 100%;
+    border-radius: 50%;
 }
 
 
 @keyframes bloco{
+    0%{left: 93%;}
+    100%{left: -8%;}
+
+}
+.cloud1{
+    top: 22%;
+    left: 90%;
+    position: absolute;
+    z-index: 30;
+    position: absolute;
+    width: 5%;
+    height: 7%;
+    animation: cloud1 14s infinite linear;
+}
+@keyframes cloud1{
     0%{left: 96.7%;}
-    100%{left: -4%;}
+    100%{left: 1%;}
 
 }
 
+.cloud1 img {
+    width: 100%;
+}
+.cloud2{
+    top: 38.2%;
+    left: 85%;
+    position: absolute;
+    z-index: 30;
+    position: absolute;
+    width: 5%;
+    height: 7%;
+    animation: cloud2 20s infinite linear;
+}
+.cloud2 img {
+    width: 100%;
+}
+@keyframes cloud2{
+    0%{left: 96.7%;}
+    100%{left: 1%;}
 
+}
+.cloud3{
+    top: 17%;
+    left: 92%;
+    position: absolute;
+    z-index: 30;
+    position: absolute;
+    width: 5%;
+    height: 7%;
+    animation: cloud3 9s infinite linear;
+}
+.cloud3 img {
+    width: 100%;
+}
+@keyframes cloud3{
+    0%{left: 96.7%;}
+    100%{left: 1%;}
+
+} 
+.plane{
+    top: 6%;
+    left: 1%;
+    position: absolute;
+    z-index: 30;
+    position: absolute;
+    width: 5%;
+    height: 7%;
+    animation: plane 5s infinite linear;
+}
+.plane img {
+    width: 100%;
+}
+@keyframes plane{
+    100%{left: 96.7%;}
+    0%{left: 1%;}
+
+}
