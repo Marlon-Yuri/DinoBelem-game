@@ -18,8 +18,9 @@ let gameOver= setInterval(function(){
     getPropertyValue("left"));
     if(blocoLeft <150 && blocoLeft >0 &&
     personagemTop>=240){
+        location.reload();
         bloco.style.display ="none";
-        alert("VOCÊ FOI CORONGADA, ATUALIZE A PÁGINA E PRESSIONE 'OK' PRA CHEGAR NO POSTO DE VACINAÇÃO MAIS PRÓXIMO")
+        alert("VOCÊ FOI CORONGADA :(, PRESSIONE 'OK' PRA CHEGAR NO POSTO DE VACINAÇÃO MAIS PRÓXIMO")
     }
     
    
