@@ -23,5 +23,4 @@ let gameOver= setInterval(function(){
         alert("VOCÊ FOI CORONGADA :(, PRESSIONE 'OK' PRA CHEGAR NO POSTO DE VACINAÇÃO MAIS PRÓXIMO")
     }
     
-   
-},10);
+}) // FICA LIGADO NOS VALORES, PRO RESPONSIVO RESPONDER *10, 50 ?
