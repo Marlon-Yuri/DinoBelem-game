@@ -90,7 +90,7 @@
     height: 4.8vw;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: bloco 1.60s infinite linear;
+    animation: bloco 1.50s infinite linear;
     border-radius: 50%;
     z-index: 20;
 }
